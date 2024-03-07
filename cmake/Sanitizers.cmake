@@ -1,5 +1,5 @@
 function(
-  myproject_enable_sanitizers
+  stl_data_structures_enable_sanitizers
   project_name
   ENABLE_SANITIZER_ADDRESS
   ENABLE_SANITIZER_LEAK

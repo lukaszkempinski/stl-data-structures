@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE stl_data_structures::stl_data_structures_options
+          stl_data_structures::stl_data_structures_warnings)
 
 target_link_system_libraries(
   intro

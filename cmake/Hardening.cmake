@@ -1,7 +1,7 @@
 include(CheckCXXCompilerFlag)
 
 macro(
-  myproject_enable_hardening
+  stl_data_structures_enable_hardening
   target
   global
   ubsan_minimal_runtime)
